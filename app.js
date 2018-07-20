@@ -7,8 +7,7 @@ var push=require('./data');
 var StringDecoder = require('string_decoder').StringDecoder;
 var app=express();
 
-//mongoose.connect('mongodb://localhost/postesp');
-mongoose.connect('mongodb://taruntadi:Bujji%40bangaram143@ds135441.mlab.com:35441/postesp');
+mongoose.connect('mongodb://localhost/postesp');
 
 var db=mongoose.connection;
 
