@@ -1,0 +1,16 @@
+{
+  "name": "iotpost",
+  "version": "1.0.0",
+  "description": "By using a http request send data from th ESP8266 and pushing into mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tarun",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.2"
+  }
+}
